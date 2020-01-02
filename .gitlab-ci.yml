@@ -1,4 +1,4 @@
-mage: "registry.sensetime.com/its-public/pytorch:latest"
+image: "registry.sensetime.com/its-public/pytorch:latest"
 
 before_script:
 - pip install -r requirements.txt
