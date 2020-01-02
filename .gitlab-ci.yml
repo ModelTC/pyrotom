@@ -1,0 +1,8 @@
+mage: "registry.sensetime.com/its-public/pytorch:latest"
+
+before_script:
+- pip install -r requirements.txt
+
+tests:
+  script:
+  - python -m unittest tests

@@ -25,7 +25,7 @@ def diff(a, b):
     return a - b
 '''
 
-        module = self.manager.run_code(name, code, init_globals)
+        module = self.manager.run_code(code, name, init_globals)
 
         self.assertIn('diff', module)
         self.assertEqual(module['diff'](391, 1096), abs(391 - 1096))
