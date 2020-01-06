@@ -1,0 +1,1 @@
+TRACE_EVENTS = ('call',)
