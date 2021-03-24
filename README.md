@@ -2,17 +2,11 @@
 
 Python Code Hotfix and Refactor on the fly!
 
+WORK IN PROGRESS.
 
-## 接口
+## Capability
 
-TODO
-
-### Pytorch 相关
-
-### 底层
-
-
-## 项目结构
-
-TODO
-
+[x] Run temp code (`TempCodeManager`)
+[x] Trace function calls (`trace`)
+[x] Normalize AST for easier code modification (`flatten`)
+[ ] A better interface to modify code on the fly
